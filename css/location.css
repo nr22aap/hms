@@ -1,0 +1,61 @@
+/* Location Page Styling */
+.location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+.location-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.address {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.map-box {
+    background-color: #e9ecef;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.operating-hours {
+    margin-top: 20px;
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.operating-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.operating-hours li {
+    font-size: 16px;
+    padding: 5px 0;
+}
